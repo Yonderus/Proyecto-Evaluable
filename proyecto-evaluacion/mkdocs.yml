@@ -1,0 +1,44 @@
+site_name: 'Proyecto evaluación Javier Gisbert Talboom'
+site_url: 'https://midominio.com'
+site_author: 'Javi Gisbert'
+site_description: 'Documentación oficial de Mi Proyecto'
+
+theme:
+  features:
+    - content.action.edit
+    - content.action.view
+
+  name: 'material'
+  palette:
+    primary: 'black'
+    accent: 'white'
+  font:
+    text: 'arial'
+ 
+nav:
+  - Perfil: index.md
+  - Proyecto_Intermodular: Proyecto_Intermodular.md
+  - Base_de_datos: bases.md
+  - Sistemas_Informaticos: sistemas.md
+  - Programación: programacion.md
+  - Entornos_de_desarrollo: entornos.md
+  - Lenguaje_de_marcas: lenguaje.md
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+
+repo_url: 'https://github.com/Yonderus?tab=repositories'
+repo_name: 'GitHub'
+edit_uri: 'edit/main/docs/'
+
+use_directory_urls: true
+strict: true
+
